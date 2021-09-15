@@ -1,0 +1,130 @@
+
+
+
+.hover_display{
+ 
+    font-size: 2rem;
+   
+    margin:2px 0px;
+    padding: 5rem;
+    height: 31rem;
+    padding-left: 2rem;
+    
+    background:  linear-gradient(to right, #33ccff 0%, #0066cc 100%);
+  }
+  .sub_title{
+      font-size: 1rem;
+    margin-bottom: -10px;
+      
+  }
+  .hover_display img{
+    display: none;
+  }
+  .hover_display .img1{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    justify-content: right;
+    text-align: right;
+    right: 20%;
+    margin-top:-45px;
+    transition: .2s linear;
+    animation: myimg linear 2s;
+    /* display: block; */
+  }
+  @keyframes myimg{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img1_bk{
+      background: rgb(241, 241, 241);
+  }
+  .hover_display .img2{
+    position: absolute;
+    width: 32%;
+    height: auto;
+    justify-content: right;
+    text-align: right;
+    right: 20%;
+    margin-top:-11%;
+    animation: myimg linear 2s;
+    /* display: block; */
+  }
+  @keyframes myimg{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img2_bk{
+    
+    background: rgb(10, 123, 151);
+}
+  .hover_display .img3{
+    position: absolute;
+    width: 34%;
+    height: auto;
+    justify-content: right;
+    text-align: right;
+    
+    right: 20%;
+    margin-top:-15%;
+    animation: myimg linear 2s;
+    /* display: block; */
+  }
+  @keyframes myimg{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img3_bk{
+    background: rgb(17, 1, 87);
+    color:white;
+    
+}
+  .hover_display .img4{
+    position: absolute;
+    width: 39%;
+    height: auto;
+    justify-content: right;
+    text-align: right;
+    right: 20%;
+    margin-top:-18%;
+    animation: myimg linear 2s;
+    /* display: block; */
+  }
+  @keyframes myimg{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img4_bk{
+    background: rgb(10, 183, 206);
+}
+  #arrow_1, #arrow_2,#arrow_3,#arrow_4{
+    color:rgb(0, 0, 0);
+   display: none;
+    
+  }
+  .show_hover{
+    display: block !important;
+  }
+  .show_arrow{
+    display: block !important;
+    margin-top:-40px;
+    
+  }
+  .row1, .row2,.row3,.row4{
+    margin-top: 30px;
+    cursor: pointer;
+    /* background-color: royalblue; */
+  }
+
+  .hover_tab_line{
+      margin:0;
+      padding: 0;
+      margin-top: 1rem;
+      
+      color:red;
+      width: 80%;
+      text-align: center;
+      margin-left: 10%;
+    
+      
+  }
